@@ -1,0 +1,17 @@
+/*
+ * فهرست اصلی کالاها. برای افزودن محصول، یک شیء تازه با همین ساختار
+ * به PRODUCTS اضافه کنید و تصویر را در پوشهٔ assets قرار دهید.
+ * مبلغ‌ها نمونه‌اند و باید پیش از انتشار به‌روز شوند.
+ */
+const PRODUCTS = [
+  { id: "iranian-pattern", name: "جوراب نقش ایرانی", category: "patterned", categoryLabel: "طرح‌دار", image: "assets/jorab-tarh-irani.webp", alt: "جوراب‌های سرمه‌ای و کرم با نقش‌های هندسی ایرانی", price: 145000, description: "ترکیب رنگ سرمه‌ای و کرم با نقوش هندسی الهام‌گرفته از طرح‌های ایرانی.", tag: "نقش‌دار", colors: ["#26314a", "#d2bca2"] },
+  { id: "1997-casual", name: "جوراب کژوال ۱۹۹۷", category: "daily", categoryLabel: "روزمره", image: "assets/jorab-casual-1997.webp", alt: "جوراب‌های مشکی و قهوه‌ای با نقش ۱۹۹۷", price: 98000, description: "مدل روزمره با زمینهٔ تیره و جزئیات سبز یا قهوه‌ای در نقش ۱۹۹۷.", tag: "روزمره", colors: ["#252321", "#68421e"] },
+  { id: "black-mini-pattern", name: "جوراب مشکی ریزنقش", category: "patterned", categoryLabel: "طرح‌دار", image: "assets/jorab-moji-meshki.webp", alt: "جوراب مشکی با نقش‌های کوچک کرم‌رنگ", price: 110000, description: "زمینهٔ مشکی با نقش‌های کوچک کرم‌رنگ و لبهٔ راه‌راه روشن.", tag: "طرح‌دار", colors: ["#181818", "#d1c4ad"] },
+  { id: "paman-sport-crew", name: "جوراب ورزشی پامان", category: "sport", categoryLabel: "ورزشی", image: "assets/jorab-garm-paman.webp", alt: "جوراب ورزشی ساق‌بلند خاکستری و مشکی پامان", price: 125000, description: "جوراب ساق‌بلند ورزشی در رنگ‌های خاکستری و مشکی.", tag: "ساق‌بلند", colors: ["#64605c", "#222222"] },
+  { id: "short-sport-mix", name: "جوراب اسپرت رنگی", category: "sport", categoryLabel: "ورزشی", image: "assets/jorab-sport-kotah-chandrang.webp", alt: "جوراب‌های کوتاه ورزشی سفید، سرمه‌ای و زرشکی", price: 90000, description: "مدل کوتاه اسپرت در چند رنگ؛ سفید، سرمه‌ای و زرشکی در تصویر دیده می‌شوند.", tag: "کوتاه", colors: ["#eee8de", "#263953", "#74262d"] },
+  { id: "paman-warm", name: "جوراب گرم پامان", category: "crew", categoryLabel: "ساق‌بلند", image: "assets/jorab-garm-paman-meh.webp", alt: "جوراب‌های ساق‌بلند پامان در رنگ‌های دودی و مشکی", price: 135000, description: "مدل ساق‌بلند پامان با بافت برجسته و رنگ‌های تیره.", tag: "ساق‌بلند", colors: ["#504c4a", "#252322"] },
+  { id: "orange-sport", name: "جوراب اسپرت نارنجی", category: "sport", categoryLabel: "ورزشی", image: "assets/jorab-sport-narenji.webp", alt: "جوراب ساق‌بلند ورزشی نارنجی با جزئیات مشکی", price: 115000, description: "جوراب اسپرت ساق‌بلند به رنگ نارنجی با جزئیات مشکی.", tag: "رنگی", colors: ["#f15b12", "#222222"] },
+  { id: "lavender-sport", name: "جوراب اسپرت یاسی", category: "sport", categoryLabel: "ورزشی", image: "assets/jorab-sport-banafsh.webp", alt: "جوراب ورزشی ساق‌بلند یاسی با جزئیات مشکی", price: 115000, description: "جوراب اسپرت ساق‌بلند یاسی با جزئیات مشکی.", tag: "رنگی", colors: ["#ad8ce9", "#242125"] },
+  { id: "portrait-socks", name: "جوراب طرح پرتره", category: "patterned", categoryLabel: "طرح‌دار", image: "assets/jorab-nakhl-portrait.webp", alt: "جوراب‌های سفید و کرم با نقش خطی چهره", price: 105000, description: "جوراب‌های روشن با نقش خطی چهره؛ در دو رنگ سفید و کرم.", tag: "تصویری", colors: ["#ede8de", "#c9b89c"] },
+  { id: "bear-ankle", name: "جوراب مچی خرسی", category: "daily", categoryLabel: "روزمره", image: "assets/jorab-neshan-khers.webp", alt: "جوراب‌های مچی مشکی و سفید با نقش خرس", price: 95000, description: "جوراب مچی مشکی با پنجه و لبهٔ سفید و نقش کوچک خرس.", tag: "مچی", colors: ["#242424", "#edeae2"] }
+];
